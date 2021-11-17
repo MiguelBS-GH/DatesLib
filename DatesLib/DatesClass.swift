@@ -7,7 +7,7 @@
 
 import Foundation
 
-class DatesClass {
+public class DatesClass {
     func printDate() {
         print("01/01/2021")
     }

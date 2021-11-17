@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "DatesLib"
-  spec.version      = "1"
+  spec.version      = "1.0.1"
   spec.summary      = "This a lib for my personal use where I will have a functions for dates to formatte it and make some changes"
 
   # This description is used to generate tags and improve search results.
@@ -103,7 +103,7 @@ Pod::Spec.new do |spec|
   #  the lib prefix of their name.
   #
 
-  # spec.framework  = "SomeFramework"
+  spec.framework = "UIKit"
   # spec.frameworks = "SomeFramework", "AnotherFramework"
 
   # spec.library   = "iconv"
@@ -116,7 +116,7 @@ Pod::Spec.new do |spec|
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
 
-  spec.requires_arc = false
+  spec.requires_arc = true
   spec.swift_versions = "5.3"
 
 end
