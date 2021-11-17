@@ -6,5 +6,6 @@ target 'DatesLib' do
   use_frameworks!
 
   # Pods for DatesLib
+  pod 'MBProgressHUD', '~> 1.1.0', :modular_headers => true
 
 end
