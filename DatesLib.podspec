@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "DatesLib"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.4"
   spec.summary      = "This a lib for my personal use where I will have a functions for dates to formatte it and make some changes"
 
   # This description is used to generate tags and improve search results.
