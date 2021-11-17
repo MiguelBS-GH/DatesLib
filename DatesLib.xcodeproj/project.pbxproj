@@ -10,6 +10,7 @@
 		82928AA08B078095A6A0ED71 /* Pods_DatesLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FEB645004853603E9B48F7B /* Pods_DatesLib.framework */; };
 		842D225F274508B2004B9B06 /* DatesLib.docc in Sources */ = {isa = PBXBuildFile; fileRef = 842D225E274508B2004B9B06 /* DatesLib.docc */; };
 		842D2260274508B2004B9B06 /* DatesLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 842D225D274508B2004B9B06 /* DatesLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		842D226727451162004B9B06 /* DatesClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842D226627451162004B9B06 /* DatesClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +19,7 @@
 		842D225A274508B2004B9B06 /* DatesLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DatesLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		842D225D274508B2004B9B06 /* DatesLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DatesLib.h; sourceTree = "<group>"; };
 		842D225E274508B2004B9B06 /* DatesLib.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = DatesLib.docc; sourceTree = "<group>"; };
+		842D226627451162004B9B06 /* DatesClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatesClass.swift; sourceTree = "<group>"; };
 		E718588A0E8A0CF633C6A18B /* Pods-DatesLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DatesLib.debug.xcconfig"; path = "Target Support Files/Pods-DatesLib/Pods-DatesLib.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,6 +66,7 @@
 			children = (
 				842D225D274508B2004B9B06 /* DatesLib.h */,
 				842D225E274508B2004B9B06 /* DatesLib.docc */,
+				842D226627451162004B9B06 /* DatesClass.swift */,
 			);
 			path = DatesLib;
 			sourceTree = "<group>";
@@ -74,7 +77,6 @@
 				E718588A0E8A0CF633C6A18B /* Pods-DatesLib.debug.xcconfig */,
 				785334AC089A523CAFE79682 /* Pods-DatesLib.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -183,6 +185,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				842D226727451162004B9B06 /* DatesClass.swift in Sources */,
 				842D225F274508B2004B9B06 /* DatesLib.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
