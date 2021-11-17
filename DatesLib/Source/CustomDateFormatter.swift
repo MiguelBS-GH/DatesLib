@@ -8,6 +8,9 @@
 import Foundation
 
 public class CustomDateFormatter {
+
+    public init() {}
+
     public func format12to24(date date12: String) -> String {
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "HH:mm:ss"
